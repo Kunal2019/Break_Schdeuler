@@ -2,7 +2,7 @@ import time
 import os
 import webbrowser
 n=3600  #Time after which break takes place (its in seconds)(so after 1 hour, break will take place )(1 hour=3600 seconds)
-m=5   # no of times break takes place (its in seconds) (the break will take place 5 a day after every 1 hour)
+m=5   # no of times break takes place (the break will take place 5 a day after every 1 hour)
 o=900   #time ater which break gets over (its in seconds)(the break will be for 15 minutes each)(15 minutes=900seconds)
 i=0
 while(i<m):

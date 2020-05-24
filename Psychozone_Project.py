@@ -62,13 +62,3 @@ while(i<m):
         print("You took Break for:",elapsed_time1," minutes")
         browserExe = "chrome.exe"
         os.system("taskkill /f /im "+browserExe)
-    elif i==6:
-        print("Time to go for break, Read some news.")
-        webbrowser.open('https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en')
-        start_time1 = time.time()
-        time.sleep(o)
-        print("Get back to work")
-        elapsed_time1 = time.time() - start_time1
-        print("You took Break for:",elapsed_time1," minutes")
-        browserExe = "chrome.exe"
-        os.system("taskkill /f /im "+browserExe)
